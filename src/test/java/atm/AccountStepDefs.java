@@ -2,11 +2,9 @@ package atm;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 
 public class AccountStepDefs {
-	@Given("^I have deposited (\\d+)\$ in my account$")
-	public void iHaveDeposited$InMyAccount(int arg0) throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
-		throw new PendingException();
-	}
+
 }
